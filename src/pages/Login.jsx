@@ -39,7 +39,7 @@ const Login = () => {
         <div className="auth-header">
           <TrendingUp size={48} style={{ color: 'var(--primary-blue)', marginBottom: '1rem' }} />
           <h1 className="auth-title">Welcome Back</h1>
-          <p className="auth-subtitle">Sign in to your VibeCode Finance account</p>
+          <p className="auth-subtitle">Sign in to your account</p>
         </div>
 
         <form onSubmit={handleSubmit} className="auth-form">
